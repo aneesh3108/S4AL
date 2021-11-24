@@ -3,3 +3,4 @@ logs/*
 visualizations/*
 datasets/*
 *.pyc
+*.bak

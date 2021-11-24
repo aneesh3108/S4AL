@@ -1,4 +1,5 @@
 allplots/*
 logs/*
 visualizations/*
+datasets/*
 *.pyc

@@ -29,7 +29,7 @@ We use CamVid and CityScapes in our paper. Please download CamVid from [here](ht
           - val 
       - imagesets
 
-## Training scripts
+## Training Scripts
 
 For training S4AL on CamVid:
 ```
@@ -40,3 +40,12 @@ For training S4AL on CityScapes:
 ```
 python --dataset cityscapes --generations 5 --unsup_weight 1 --coldstart --region_size 43 --num_regions 4 --max_buffer_length 500 --save_dir cityscapes_s4al_run1
 ```
+
+## References
+
+List of open-source repositories used or referred for this code:
+- [ReCo](https://github.com/lorenmt/reco)
+- [DEAL](https://github.com/Shuai-Xie/DEAL)
+- [ViewAL](https://github.com/nihalsid/ViewAL)
+- [Nvidia SemSeg](https://github.com/NVIDIA/semantic-segmentation)
+- [Pytorch Torchvision](https://github.com/pytorch/vision)
